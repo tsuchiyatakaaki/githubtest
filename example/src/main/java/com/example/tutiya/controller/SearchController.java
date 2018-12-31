@@ -16,7 +16,7 @@ import com.example.tutiya.bean.SearchBean;
  */
 @Controller
 public class SearchController {
-    //gittest5
+    //gittest6
 	
 	@ModelAttribute
 	private SearchBean setUp() {
