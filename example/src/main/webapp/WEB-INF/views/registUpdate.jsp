@@ -7,7 +7,7 @@
 	<script type='text/javascript' src="./static/js/jquery.validate.min.js"></script>
 	<script src="./static/js/registUpdate.js"></script>
 	
-	<title>登録更新画面test</title>
+	<title>aaa登録更新画面test</title>
 </head>
 <body>
 	<form:form action="update" modelAttribute="registUpdateForm" id="mainForm">
