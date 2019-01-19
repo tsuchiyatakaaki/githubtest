@@ -6,7 +6,7 @@
 	<script src="./static/js/jquery-3.3.1.min.js"></script>
 	<script src="./static/js/list.js"></script>
 	
-	<title>一覧画面</title>
+	<title>test一覧画面</title>
 </head>
 <body>
 	<form:form action="" modelAttribute="listForm">
