@@ -1,0 +1,20 @@
+package com.example.tutiya.service;
+
+import java.util.List;
+
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.validation.BindingResult;
+
+import com.example.tutiya.bean.ListBean;
+import com.example.tutiya.bean.SearchForm;
+import com.example.tutiya.exception.ExampleException;
+
+public interface RegistUpdateServiceIF {
+
+	public ListBean searchData(int teamId);
+	
+	public int updateTeams(ListBean listBean) throws ExampleException;
+	
+	public void validate(BindingResult bindingResult);
+}

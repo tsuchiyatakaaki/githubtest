@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.tutiya.mybatis.mapper.RegistUpdateMapper">
+  <select id="searchData" parameterType="int" resultType="com.example.tutiya.bean.ListBean">
+    select
+      t.TeamId
+      ,t.TeamName
+      ,t.CaptainId
+      ,c.name
+      ,t.Version
+    from
+      Teams t
+    left outer join
+      Captains c
+    on
+      t.CaptainId = c.CaptainId
+    where
+      t.TeamId = #{teamId}
+  </select>
+</mapper>

@@ -1,0 +1,15 @@
+package com.example.tutiya.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Repository;
+
+@Repository
+@Primary
+public class ListDaoImpl implements ListDaoIF {
+	public List search() {
+		return new ArrayList<>();
+	}
+}

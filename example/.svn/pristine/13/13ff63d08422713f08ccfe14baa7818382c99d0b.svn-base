@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./static/css/style.css">
+	<title>検索画面</title>
+</head>
+<body>
+	<form:form action="list" modelAttribute="searchForm">
+		<div>
+			<h2>検索画面</h2>
+		</div>
+
+		<div>
+			<form:label path="dataId">チームID</form:label>
+			<form:input path="dataId" />
+		</div>
+
+		<div>
+			<form:button name="next">次へ</form:button>
+		</div>
+	</form:form>
+</body>
+</html>

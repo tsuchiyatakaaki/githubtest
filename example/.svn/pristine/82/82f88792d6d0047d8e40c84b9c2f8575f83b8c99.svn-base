@@ -1,0 +1,14 @@
+$(function(){
+	bindEvent();
+});
+
+
+function bindEvent(){
+	var teamId = "777";
+	
+	$('#targetData\\.teamId').bind('blur', function(event){
+		$.get("http://localhost:8080/example/ajax/" + teamId, function(data, statusText, jqXHR){
+			alert(data);
+		},'json')
+	})
+}

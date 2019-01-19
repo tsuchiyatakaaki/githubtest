@@ -1,0 +1,10 @@
+package com.example.tutiya.dao;
+
+import java.util.List;
+
+import com.example.tutiya.bean.ListBean;
+import com.example.tutiya.bean.SearchForm;
+
+public interface ListDaoIF {
+	public List<ListBean> search(SearchForm searchForm);
+}

@@ -1,0 +1,33 @@
+package com.example.tutiya.bean;
+
+import java.util.List;
+
+import javax.validation.Valid;
+import javax.validation.groups.Default;
+
+public class RegistUpdateForm {
+	
+	public interface Group1 extends Default{};
+	public interface Group2 extends Default{};
+	
+	@Valid
+	private ListBean targetData;
+
+	private String error;
+	
+	public String getError() {
+		return error;
+	}
+
+	public void setError(String error) {
+		this.error = error;
+	} 
+	
+	public ListBean getTargetData() {
+		return targetData;
+	}
+
+	public void setTargetData(ListBean targetData) {
+		this.targetData = targetData;
+	}
+}

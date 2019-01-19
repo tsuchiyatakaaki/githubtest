@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./static/css/style.css">
+	<script src="./static/js/jquery-3.3.1.min.js"></script>
+	
+	<title>登録更新画面</title>
+</head>
+<body>
+	<form:form action="" modelAttribute="listForm">
+		<div>
+			<h2>登録更新画面</h2>
+		</div>
+
+	</form:form>
+</body>
+</html>

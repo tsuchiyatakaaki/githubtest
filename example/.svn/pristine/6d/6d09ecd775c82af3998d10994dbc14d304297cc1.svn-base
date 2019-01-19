@@ -1,0 +1,36 @@
+package com.example.tutiya.bean;
+
+import java.util.List;
+
+public class RegistUpdateForm {
+	
+	private String dataId;
+	
+	private List<ListBean> dataList;
+
+	private List<Boolean> selected;
+	
+	public void setSelected(List<Boolean> selected) {
+		this.selected = selected;
+	}
+
+	public List<Boolean> getSelected() {
+		return selected;
+	}
+
+	public String getDataId() {
+		return dataId;
+	}
+
+	public void setDataId(String dataId) {
+		this.dataId = dataId;
+	}
+
+	public List<ListBean> getDataList() {
+		return dataList;
+	}
+
+	public void setDataList(List<ListBean> dataList) {
+		this.dataList = dataList;
+	}
+}

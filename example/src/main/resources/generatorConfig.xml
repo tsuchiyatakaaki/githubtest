@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+
+<classPathEntry location="C:\Users\tsuch\.m2\repository\org\xerial\sqlite-jdbc\3.25.2\sqlite-jdbc-3.25.2.jar" />
+<context id="context1">
+	<jdbcConnection driverClass="org.sqlite.JDBC" connectionURL="jdbc:sqlite:c:/tsuchiya_work/03_dev/006_traning/db/test.db" userId="" password="" />
+	<javaModelGenerator targetPackage="com.example.tutiya.mybatis.entity.generated" targetProject="C:/spring-tool-suite/svn_workspace/example/src/main/java/" />
+	<sqlMapGenerator targetPackage="com.example.tutiya.mybatis.mapper.generated" targetProject="C:/spring-tool-suite/svn_workspace/example/src/main/resources/" />
+	<javaClientGenerator targetPackage="com.example.tutiya.mybatis.mapper.generated" targetProject="C:/spring-tool-suite/svn_workspace/example/src/main/java/" type="XMLMAPPER" />
+	<table schema="test" tableName="%"/>
+</context>
+</generatorConfiguration>
